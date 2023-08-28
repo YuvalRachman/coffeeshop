@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee & Crafts</title>
+    <meta name="keywords" content="Coffee, HTML, CSS, JavaScript" />
+    <meta name="author" content="Yuval-Rachaman" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swaphttps://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@0;1&family=Vesper+Libre&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="description" content="Coffeeshop" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="Logo"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <il>
+              <a class="nav__link" href="#Recipes">Recipes</a>
+            </il>
+            <il>
+              <a class="nav__link" href="#">Menu</a>
+            </il>
+            <il>
+              <a class="nav__link" href="#">Book a table</a>
+            </il>
+            <il>
+              <a class="nav__link" href="#">Contacts</a>
+            </il>
+          </ul>
+        </nav>
+        <img
+          class="header__image"
+          src="./images/inside_coffee_shop.png"
+          alt="coffee_shop"
+        />
+        <h1 class="header__title">
+          <span class="header__span-accent">Specialty Coffee</span>in the Triple
+          Peaks Library
+        </h1>
+        <span class="header__description"
+          >Welcome to our study zone! We've got the coffee to energize you
+          <br />
+          and the cozy vibes to help you get creative.</span
+        >
+        <div class="header__footer">
+          <div>
+            <p class="header_paragraph">Hours:</p>
+            <p class="header_paragraph">Monday – Friday (10:00 – 19:00)</p>
+            <p class="header_paragraph">Saturday – Sunday (11:00 – 18:00)</p>
+          </div>
+          <p class="header__paragraph">
+            200 Success Avenue, The Town of Triple Peaks
+          </p>
+        </div>
+      </header>
+      <main class="content">
+        <section class="recipes" id="Recipes">
+          <h2 class="recipes__title">Recipes</h2>
+          <p class="recipes__subtitle">
+            Check out some recipes we've collected for your home-brewing
+            convenience
+          </p>
+          <div class="recipes__videos">
+            <div>
+              <iframe
+                class="recipes__iframe"
+                width="891"
+                height="501"
+                src="https://www.youtube.com/embed/j6VlT_jUVPc"
+                title="The Ultimate AeroPress Technique (Episode #3)"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <p class="recipes__video-caption">
+                <span> A eropress recipe</span> <span>~5 min </span>
+              </p>
+            </div>
+
+            <div>
+              <iframe
+                class="recipes__iframe"
+                width="891"
+                height="501"
+                src="https://www.youtube.com/embed/st571DYYTR8"
+                title="The Ultimate French Press Technique"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              >
+              </iframe>
+              <p class="recipes__video-caption">
+                French press recipe<span> ~15 min</span>
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="reservation"></section>
+        <section class="menu"></section>
+        <section class="about"></section>
+      </main>
+      <footer class="footer"></footer>
+    </div>
+  </body>
+</html>
