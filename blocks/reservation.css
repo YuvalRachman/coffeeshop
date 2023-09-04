@@ -1,6 +1,7 @@
 .reservation {
   background-image: url(../images/background_reservation.svg);
   background-size: cover;
+  background-position: center;
   background-color: #d9e7ff;
   display: flex;
   justify-content: center;

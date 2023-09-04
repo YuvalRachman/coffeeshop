@@ -9,6 +9,7 @@
   position: relative;
   background-image: url(../images/background_header.svg);
   background-size: cover;
+  background-position: center;
 }
 .header__title {
   max-width: 729px;
@@ -42,7 +43,7 @@
   font-family: "Noto Serif";
   font-size: 20px;
   line-height: 30px;
-  margin: 28px 0 0 80px;
+  margin: 28px 0 0 0;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -51,6 +52,7 @@
   padding: 0;
   align-self: flex-end;
   margin: 0;
+  font-weight: normal;
 }
 
 .header__footer {

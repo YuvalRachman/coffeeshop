@@ -1,7 +1,6 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  margin-right: 80px;
 }
 .nav__links {
   display: flex;
@@ -26,4 +25,7 @@
   left: -50px;
   width: 105px;
   height: 39px;
+}
+.nav__link:hover {
+  color: #2f80ed;
 }

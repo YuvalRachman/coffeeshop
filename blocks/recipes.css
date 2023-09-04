@@ -2,6 +2,7 @@
   background-image: url(../images/background_recipes.svg);
   background-color: #0a2750;
   color: #ffffff;
+  background-position: center;
 
   padding: 100px 80px 215px;
 }
@@ -38,7 +39,5 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
-}
-.recipes__video-caption:last-of-type {
-  line-height: 0;
+  margin: 0;
 }
