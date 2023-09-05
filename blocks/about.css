@@ -16,10 +16,12 @@
   position: relative;
   overflow: hidden;
   display: flex;
+  justify-content: space-between;
+  padding: 100px 80px 173px 80px;
 }
 .about__title {
-  margin: 0;
-
+  margin-top: 0;
+  margin-bottom: 0;
   z-index: 1;
   max-width: 251px;
   font-family: "Inter", Arial, sans-serif;
@@ -44,12 +46,11 @@
   font-size: 20px;
   line-height: 30px;
   max-width: 660px;
-  margin: 119px 80px 173px auto;
+  margin: 19px 0 0 0;
 }
 .about__paragraph {
-  margin: 0;
+  margin: 0 0 20px;
 }
-.about__paragraph.special {
-  padding-top: 20px;
-  padding-bottom: 20px;
+.about__paragraph:last-child {
+  margin-bottom: 0;
 }
